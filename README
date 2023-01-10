@@ -1,0 +1,6 @@
+Commands to build and deploy the application
+```
+gcloud builds submit --tag gcr.io/census-dashboard-374213/census-dashboard  --project=census-dashboard-374213
+
+gcloud run deploy --image gcr.io/census-dashboard-374213/census-dashboard-gender-pyramid --platform managed  --census-dashboard-374213 --allow-unauthenticated
+```

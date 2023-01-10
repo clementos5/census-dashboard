@@ -4,3 +4,4 @@ gcloud builds submit --tag gcr.io/census-dashboard-374213/census-dashboard  --pr
 
 gcloud run deploy --image gcr.io/census-dashboard-374213/census-dashboard-gender-pyramid --platform managed  --census-dashboard-374213 --allow-unauthenticated
 ```
+

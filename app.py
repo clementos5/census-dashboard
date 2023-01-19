@@ -157,4 +157,4 @@ def pop_pyramid(slc_input):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False, host='0.0.0.0', port=8800)
+    app.run_server(debug=False, port=8800)
